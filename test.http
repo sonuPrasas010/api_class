@@ -1,0 +1,35 @@
+@baseUrl = https://api.thecatapi.com/v1
+@assetsUrl = https://thecatapi.com/v1
+@apiKey =  live_yGcx2OR1wG5V45S98jTHoeJ36W0NkexdjX08VZ5ubJiRJ50PzF3HJvd90IESLN6c 
+//1
+
+###
+# https://api.thecatapi.com/v1/breeds
+GET {{baseUrl}}/breeds
+
+###
+GET {{baseUrl}}/breeds/abys
+
+### 
+GET {{baseUrl}}/favourites
+x-api-key: {{apiKey}}
+
+### 
+GET {{baseUrl}}/favourites/:favourite_id
+x-api-key: {{apiKey}}
+
+### 
+GET {{baseUrl}}/favourites/:favourite_id
+
+### 
+DELETE {{baseUrl}}/favourites/:favourite_id
+
+### 
+POST  {{baseUrl}}/favourites
+x-api-key: {{apiKey}}
+
+{
+	"image_id":asf2,
+	"sub_id": "my-user-1234"
+} 
+
