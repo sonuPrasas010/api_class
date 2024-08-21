@@ -1,24 +1,22 @@
- import '../contracrs/breeds_daata_source.dart';
+import '../contracrs/breeds_daata_source.dart';
 
 class BreedsDaataSourceImpl implements BreedsDaataSource{
+
   @override
   Future fetchAll() {
-    
     throw UnimplementedError();
   }
 
   @override
   Future fetchById(String id) {
-    
     throw UnimplementedError();
   }
 
   @override
   Future postFav(String id, data) {
-    
     throw UnimplementedError();
   }
-                                                        
+                                                      
 }
 
 // abstract class LivingAnimal{
