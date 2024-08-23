@@ -4,6 +4,7 @@ const primaryColor = Colors.green;
 final secondaryColor = Colors.red[400];
 
 const baseUrl = "https://api.thecatapi.com/v1";
+
 const assetsUrl = "https://thecatapi.com/v1/";
 
 const apiToken = "live_yGcx2OR1wG5V45S98jTHoeJ36W0NkexdjX08VZ5ubJiRJ50PzF3HJvd90IESLN6c";
